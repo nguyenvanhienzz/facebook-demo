@@ -1,0 +1,87 @@
+.notification-main{
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    width: 340px;
+    right: 20px;
+    border-radius: 5px;
+    padding: 0 10px;
+    top: 56px;
+    max-height:570px;
+    overflow-y: scroll;
+    min-height: 200px;
+}
+
+.notification-main::-webkit-scrollbar {
+   display: none;
+}
+.user-notifi{
+    display: flex;
+    align-items: center;
+}
+.main-infor{
+    margin-top: 20px;
+margin-bottom: 10px;
+padding: 10px; 
+}
+.main-infor:hover{
+    cursor: pointer;
+    background-color: rgb(243, 239, 239);
+    border-radius: 5px;
+}
+.user-notifi img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-notifi .infor-notifi{
+    margin-left: 20px;
+}
+.user-notifi .infor-notifi label,span{
+    font-size: 15px;
+}
+.user-notifi .infor-notifi label{
+    font-weight: 600;
+}
+.user-notifi .infor-notifi p{
+margin-top: 5px;
+color: rgb(39, 101, 235);
+font-size: 14px;
+}
+.btn-notifi{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.btn-notifi button{
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background-color: rgb(67, 116, 223);
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}.btn-notifi button:hover{
+    background-color: rgb(41, 101, 231);
+
+}
+.btn-notifi .btn-notifi-clear{
+    color: black;
+    background-color: rgb(216, 214, 214);
+    padding: 10px 20px;
+
+}
+.btn-notifi .btn-notifi-clear:hover{
+    background-color: rgb(197, 197, 197);
+
+
+}
+.main-infor .infor-no{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(199, 196, 196);
+}

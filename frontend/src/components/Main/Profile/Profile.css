@@ -1,0 +1,236 @@
+/*top-profile*/
+
+.profile .top-profile  {
+    width: 950px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.profile .top-profile .top-img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.pro-default{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.follow-unfollow{
+     margin-right: 30px;
+     display: flex;
+    align-items: center;
+}
+.follow-unfollow button{
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    border: none;
+    background-color: #1B74E4;
+    margin: 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.follow-unfollow button:hover{
+    background-color: #1669cf;
+
+}
+.follow-unfollow button label{
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.follow-unfollow .btn-friend{
+    background-color: #D8DADF;
+    color: #010101;
+}
+.follow-unfollow .btn-friend:hover{
+    background-color: #cbcccf;
+
+}
+.pro-name-img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: -40px;
+    left: 30px;
+   
+}
+.pro-name-img img{
+    width: 180px;
+    height: 150px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.update-profilePicture{
+    cursor: pointer;
+    position: absolute;
+    left: 110px;
+    top: 110px;
+    background-color: #D8DADF;
+    padding: 5px;
+    border-radius: 50%;
+}
+.pro-name h4{
+    font-size:15px;
+    color: #65676B;
+    margin-top: 10px;
+}
+/*main-profile*/
+.main-profile{
+    background-color: #F0F2F5;
+    width: 100%;
+}
+.main-backgroud{
+   width:910px;
+   margin: auto;
+   display: flex;
+}
+.main-backgroud .main-left-1{
+    padding-top: 20px;
+    width: 360px;
+    margin-right: 20px;
+}
+.main-backgroud .main-left-1 .introduction {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.main-backgroud  .main-left-1 .introduction ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 15px 0;
+}
+.main-backgroud .main-left-1 .introduction ul li p{
+    margin-left: 10px;
+}
+.main-backgroud .main-left-1 .introduction ul li .icon-profile{
+    color: #65676B;
+}
+.main-backgroud .main-left-1 .introduction ul li p label{
+    font-weight: 600;
+
+}
+/*images*/
+.images{
+    width: 360px;
+    margin-top: 20px;
+    background-color: #fff;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.img-anh{
+    padding: 20px 0 20px 20px;
+}
+.images .img-anh ul {
+   margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.images .img-anh ul li img{
+    cursor: pointer;
+    width: 106px;
+    height: 106px;
+    border-radius:10px ;
+    object-fit: cover;
+    margin-right:5px ;
+}
+
+
+/*my-friend*/
+.my-friend{
+    width: 360px;
+    margin-top: 20px;
+    background-color: #fff;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.main-friend {
+    padding: 20px 0 20px 20px;
+}
+.my-friend .main-friend ul {
+     margin-top: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     list-style: none;
+    
+ }
+.my-friend .main-friend ul li img{
+    width: 106px;
+    height: 106px;
+    border-radius:10px ;
+    object-fit: cover;
+    /* padding-right:5px ; */
+}.my-friend .main-friend ul li{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.my-friend .main-friend ul li p{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+.main-cenc{
+    margin-top: -50px !important;
+}
+.pro-name-img label input{
+    display: none;
+}
+.update_profile{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    z-index: 100; 
+}
+.modal-ver{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0, 0, .2);
+}
+.mode-main-update{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: auto ;
+    position: relative;
+    padding: 15px;
+    height:400px;
+}
+.mode-main-update input{
+    display: none;
+}
+.mode-main-update h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mode-main-update img{
+    border-radius: 50%;
+     width: 300px;
+     height: 300px;
+     margin: 0 20%;
+     object-fit: cover;
+}
+.mode-main-update button{
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #1669cf;
+    color: #fff;
+}

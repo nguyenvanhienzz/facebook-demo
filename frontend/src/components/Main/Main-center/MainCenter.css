@@ -1,0 +1,229 @@
+.main-center{
+    max-height: 900px;
+    overflow :auto;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    margin-top: 70px;
+}
+.main-center::-webkit-scrollbar { 
+    display: none; 
+}
+.main-post{
+    width: 500px;
+    margin: auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.main-post .post-img{
+    display: flex;
+    cursor: pointer;
+}
+
+.main-post .post-img img{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    object-fit: cover;
+}
+.main-post .post-img input{
+    width: 100%;
+    border: none;
+    background-color:whitesmoke ;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.main-post .post-img input::placeholder{
+    padding-left: 10px;
+}
+.main-post .post-img input:hover{
+    background-color:#E4E6E9 ;
+}
+.post-bor{
+    margin-top: 10px;
+    border-bottom: 1px solid #E4E6E9;
+    margin: 10px 0;
+}
+.post-bot ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+.post-bot ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #939494;
+    font-weight: 600;
+}
+.icon-photo{
+    color: #41B35D;
+    margin-right: 5px;
+}
+.icon-emo{
+    color: #EBB332;
+    margin-right: 5px;
+}
+.post-bot ul li img{
+    width: 40px;
+    object-fit: contain;
+}
+.post-bot ul li:hover{
+    background-color: whitesmoke;
+}
+/* post-center*/
+.post-center{
+    width: 530px;
+    height: auto;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.post-center p{
+    padding: 15px ;
+    margin-top:-20px;
+}
+
+.title-avatar{
+    display: flex;
+    padding: 15px;
+}
+.title-avatar img{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.title-user {
+    margin-left: 5px;
+}
+.title-user .title-name{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+.title-user .title-name:hover{
+    text-decoration: underline;
+    color: #939494;
+}
+.title-work{
+    font-size: 14px;
+    display: flex;
+   align-items: center;
+   color: #939494;
+}
+.title-work .icon-language{
+    transform: scale(0.6);
+}
+.post-img img{
+  width:530px;
+  height: auto;
+  object-fit: cover;
+}
+.post-img video{
+    width:530px;
+    height: auto;
+    object-fit: cover;
+}
+.post-like-comment .like{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #939494;
+
+}
+.post-like-comment .like label{
+    margin-left: 5px;
+    
+}
+.post-like-comment img{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.btn-icon{
+    display: block;
+    padding-bottom:10px ;
+}
+.btn-icon ul{
+    color: #939494;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 14px;
+    padding:5px;
+    border-top: 1px solid #cdcece;
+    border-bottom: 1px solid #cdcece;
+    margin: 10px 0;
+    bottom: 40px;
+}
+.btn-icon ul li{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px 40px;
+}
+.btn-icon ul li:hover{
+    background-color: #E4E6E9;
+    border-radius:10px ;
+    
+}
+.btn-icon .li-over{
+    position: relative;
+}
+
+.li-over label{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.li-over label img{
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+    object-fit: cover;
+    border-radius:50%;
+
+}
+.icon-thum,.icon-comment,.icon-share{
+    margin-right: 5px;
+}
+.icon-hover ul{
+    position:absolute;
+    width: 250px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 25px;
+    align-items: center;
+    border: none;
+    left: -90px;
+    bottom: 20px;
+}
+.icon-hover ul li{
+    cursor: pointer;
+    margin: 0 5px;
+    list-style: none;
+    transition: .3s;
+    padding: 0px 1px 0px 1px;
+}
+.icon-hover ul li:hover{
+    transform: scale(1.1);
+    transition: .3s;
+
+}
+.icon-hover ul li img{
+  
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}

@@ -1,0 +1,6 @@
+.main{
+    position: fixed;
+    display: grid;
+    background-color:#F0F2F5;
+    grid-template-columns: 1fr 2fr 1fr;
+}

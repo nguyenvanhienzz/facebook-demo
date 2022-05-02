@@ -1,0 +1,100 @@
+.main-right{
+    right: -60px;
+    position: relative;
+    margin-top: 70px;
+    height: 600px;
+    overflow-y: scroll;
+    margin-right: 10px;
+}
+
+.main-right::-webkit-scrollbar{
+    width: 8px;
+}
+.main-right::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #cccbcb;
+  }
+.my-friends{
+    background-color: #F0F2F5;
+}
+.my-friends h4{
+    margin-left: 5px;
+    color: #75777B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-friends h4 label{
+    margin-right: 40px;
+    font-size: 13px;
+    color: #75777B;
+    cursor: pointer;
+    font-weight: 500;
+}
+.my-friends h4 label:hover{
+    text-decoration: underline;
+}
+.friend-request{
+    cursor: pointer;
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.friend-request img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.friend-request h4{
+    margin: 10px;
+    color: #010101;
+}
+.friend-request button{
+    width: 90%;
+    padding:  10px;
+    margin: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #D8DADF;
+}
+.friend-request .add-friend{
+    background-color: #1B74E4;
+    color: #fff;
+}
+.contacts-border{
+    width: 300px;
+    margin:  10px 0;
+    border-top: 1px solid #CED0D4;
+}
+.contact-1 label{
+    color: #75777B;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.contact-1 ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-weight: 500;
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 7px 5px;
+}
+.contact-1 ul li img{
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.contact-1 ul li:hover{
+    border-radius: 10px;
+    background-color: #E4E6EB;
+}

@@ -1,0 +1,72 @@
+.component-friends{
+    background-color: #F0F2F5;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    height: auto;
+
+}
+.friends-default{
+    margin-top: 100px;
+    width: 1200px;
+    margin: 100px auto 0 auto ; 
+}
+.grid-friends{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+.friend-requests{
+    width: 221px;
+    cursor: pointer;
+    background-color: #fff;
+    margin-right: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 375px;
+
+}
+.friend-requests img{
+    width: 100%;
+    max-height: 221px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.friend-requests h4{
+    margin: 10px;
+    color: #010101;
+}
+
+.friend-request .add-friend{
+    background-color: #1B74E4;
+    color: #fff;
+}
+.grid-friend .friend-requests .img-friend{
+    width: 100px;
+    height: 500px;
+}
+.information-friends button{
+     width: 90%;
+    padding:  10px;
+     margin: 10px 15px;
+     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #D8DADF;
+    background-color: #286FE2;
+    color: #fff;
+    margin:10px ;
+}
+.information-friends button:hover{
+    background-color: #105bd3;
+
+}
+.information-friends .friends-clear{
+    background-color: #E4E6EB;
+    color: #010101;
+}.information-friends .friends-clear:hover{
+    background-color: #d2d3d6;
+}

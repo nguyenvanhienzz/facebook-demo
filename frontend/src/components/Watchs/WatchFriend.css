@@ -1,0 +1,64 @@
+.my-watch{
+    background-color: #F0F2F5;
+    width: 100%;
+}
+.contant-video{
+    width: 740px;
+    background-color: #fff;
+    margin: 10px auto;
+    border-radius: 10px; 
+    position: relative;
+    height: 300px;
+    top: 70px;
+    display: flex;
+}
+.contant-video video{
+    width: 276px;
+    height: 155px;
+    border-radius: 5px;
+    margin: auto 20px;
+}
+.header-friend {
+    margin-left: -25px;
+    padding: 30px 30px;
+    left: -29px;
+    margin-top: 55px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.header-friend p{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.icon-arrowf{
+    transform: scale(0.5);
+}
+.header-friend h4{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.iformation-video{
+    width: 100%;
+    margin: auto 10px;
+}
+.iformation-poster{
+    display: flex;
+    align-items: center;
+}
+.iformation-video img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-video{
+    margin-left: 10px;
+}
+.iformation-video p{
+    margin-top: 12px;
+}
+.user-video p{
+    margin-top: 3px;
+    font-size: 13px;
+}

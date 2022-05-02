@@ -1,0 +1,70 @@
+.login{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #365999;
+    height:650px ;
+ 
+}
+.login .logo-nt img{
+    width: 800px;
+}
+
+/* form-newacount*/
+.form-login{
+    width: 396px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-right: 50px;
+    background: #fff;
+    border-radius: 10px;
+    height: 350px;
+}
+.form-login .form-err{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: red;
+}
+.form-login h2{
+    text-align: center;
+    font-size: 25px;
+    color: #365999;
+}
+.form-login input{
+    margin: 10px 0;
+    width: 94%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240,242,245);
+}
+.login-btn{
+    display: block;
+    margin: auto;
+    background-color: #166FE5;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.newacount-btn{
+    width: 100%;
+    display: block;
+    margin: auto;
+    background-color: #42B72A;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
